@@ -1,40 +1,62 @@
 body{
-    background:#3577A7;
+  background: #3577A7;
 }
-
-.content{
-    display:  flex;
-    flex-direction: column;
-    width: 100%;
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
-
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white ;
-    padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-top: 15px;
 }
-
-.header-title{
-    display: flex;
-    align-items: center;
-    font-size: 25px;
+.header-title {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
 }
-
-.header-image{
-    width: 50px;
-    height: 50px;
-    padding-right: 10px;
+.header-image {
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
 }
-
-.content-description{
-    padding: 20px;
-    text-align: center;
+.content-description {
+  padding: 20px;
+  text-align: center;
 }
-
-.game{
-    background-color: blue;
-    width: 100%;
-    height: 10px;
+.game {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.board {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+ background-color: grey;
+ padding: 20px;
+}
+.first, .middle, .last {
+display: flex;
+justify-content: center;
+flex-grow: 1;
+background: grey;
+margin: 2px;
+}
+.first-part-list, .middle-part-list, .last-part-list {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.ball-place {
+background-color: #015EBB;
+border: 2px solid #013D78;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+margin: 5px;
+box-shadow: 2px 0px 3px 1px rgba(0,0,0,0.65);
 }
